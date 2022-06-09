@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Verificador de Idade</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+
+    </main>
+    <div class="content">
+      <form action="#" onsubmit="showAlertModal(this), showResult(this)">
+        <fieldset>
+
+          <div class="nasc">
+            <label for="born">Ano de Nascimento:</label>
+
+            <input type="number" min="1900" max="2022" value="" placeholder="1929" id="born" name="birth">
+          </div>
+
+          <div class="genderSelector">
+            <label class="gender" for="gender">Gênero:</label>
+
+            <input type="radio" value="Masculino" id="genderM" name="gender" checked><span> Masculino</span>
+
+            <input type="radio" value="Feminino" id="genderF" name="gender"><span> Feminino</span>
+          </div>
+
+          <div class="butto">
+            <button type="submit">Verificar</button>
+          </div>
+
+        </fieldset>
+      </form>
+      <div class="result">
+        <p>Preencha os dados acima para ver o Resultado</p>
+      </div>
+    </div>
+    <footer>
+      <h3>Created by: Henrique Lourenço Sabonare</h3>
+    </footer>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
