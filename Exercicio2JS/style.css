@@ -81,14 +81,12 @@ p, span{
   text-align: center;
 }
 img.image{
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 25rem;
-  opacity: 1;
-  visibility: visible;
-  
+  opacity: 1;  
 }
 img{
 opacity: 0;
-visibility: hidden;
+
 }
