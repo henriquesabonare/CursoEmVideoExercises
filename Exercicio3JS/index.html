@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Super Contador</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Vamos contar</h1>
+    </header>
+
+    <main>
+      <div class="content">
+        <form action="">
+          <fieldset>
+            <label for="start">Início:</label>
+            <input type="number" max="999" value="" id="start" name="inicio">
+
+            <label for="end">Fim:</label>
+            <input type="number" max="999" value="" id="end" name="fim">
+
+            <label for="step">Passo:</label>
+            <input type="number" max="999" value="" id="step" name="passo">
+
+            <button onclick="showResult()" type="button">Contar</button>
+
+          </fieldset>
+        </form>
+
+        <div class="result">
+
+          <p>Preparando a contagem...</p>
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <p> &copy; Created by: Henrique Lourenço Sabonare</p>
+    </footer>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
