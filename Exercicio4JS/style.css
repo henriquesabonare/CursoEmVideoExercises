@@ -22,15 +22,13 @@ h1,p{
   width: 35rem;
   height: 35rem;
   background-color: white;
-
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
   padding: 10px;
-
   border: 2px;
   border-radius: 15px;
+  box-shadow: 3px 2px 6px ;
 }
 fieldset{
   border: none;
@@ -39,6 +37,8 @@ input{
   border-radius: 25rem;
   width: 8rem;
   height: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
 }
 label{
   color: black;
@@ -47,16 +47,12 @@ label{
 }
 button{
   cursor: pointer;
-
   width: 8rem;
   height: 2rem;
-
   border: none;
   border-radius: 25rem;
-
   background-image: linear-gradient(to right, hsl(160, 36%, 56%), hsl(100, 80%, 60%));
   opacity: .8;
-
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -65,24 +61,20 @@ button:hover{
   opacity: 1;
 }
 select:disabled{
-  width: 18rem;
-  height: 25rem;
-  border-radius: 1.2rem;
+  border-radius: .4rem;
   border: 2px solid black;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 1.1rem;
+  padding: 1.4rem;
   font-size: 1.2rem;
 }
 select{
-  width: 18rem;
-  height: 25rem;
-  border-radius: 1.2rem;
+  border-radius: .4rem;
   border: 2px solid black;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 1.1rem;
+  padding: 1.4rem;
   font-size: 1.2rem;
 }
