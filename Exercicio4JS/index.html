@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tabuada</title>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+
+    <main class="content">
+
+      <form action="">
+        <fieldset>
+          <label for="number">Número:</label>
+          <input type="number" name="number" value="" id="number">
+          <button type="button" onclick="showResult()">Gerar Tabuada</button>
+        </fieldset>
+      </form>
+
+      <div class="result">
+        <select name="selectResult" id="select" disabled>
+          <option value="">Digite um número acima</option>
+        </select>
+      </div>
+    </main>
+
+
+    <footer>
+      <p>&copy; Created by: Henrique Lourenço Sabonare</p>
+    </footer>
+
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
