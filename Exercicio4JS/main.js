@@ -27,6 +27,4 @@ function realizaTabuada(){
   }
   let resultadoStyle = resultado
   resultadoStyle.removeAttribute("disabled")
-
-
 }
