@@ -21,7 +21,7 @@ function addNumber(arrayValue){
     arrayValue.push(inputNumber)
     }
   }
-  return array
+  return arrayValue
 }
 function somar() {
     let soma = 0;
